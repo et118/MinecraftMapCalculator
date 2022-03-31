@@ -1,0 +1,51 @@
+﻿body
+{
+	background-image: url("images/map.png");
+	background-size: auto;
+}
+#content {
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(44, 176, 176, .5);
+	width: 600px;
+}
+input {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 30px;
+	border: 2px inset black;
+	font-size: 25px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 55px;
+}
+p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#hem {
+	background-color: rgba(44, 176, 176, 0.7);
+	background-size: auto;
+}
+#command {
+	background-color: rgba(44, 176, 176, 0.7);
+	background-size: auto;
+}
+button {
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 40px;
+	box-shadow: 4px 10px 5px black;
+	border-radius: 25px;
+	font-weight: bold;
+}
+button:hover {
+	width: 154px;
+	height: 42px;
+}
